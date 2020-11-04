@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(224, 224, 243);
+  color: rgb(42, 42, 82);
+}
+#student-list{
+    display: flex;
+    justify-content: space-evenly;
+     flex-wrap: wrap;
+}
+.studentObject{
+    width: 20%;
+     border: 3px solid rgb(42, 42, 82);
+     border-radius: 14px 14px 0px 0px;
+}
+.studentTittle{
+    background-color: rgb(42, 42, 82);
+    color: rgb(224, 224, 243);
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.studentBody{
+    border-bottom: 3px solid rgb(42, 42, 82);
+    padding: 8px;
+    text-align: center;
+}
